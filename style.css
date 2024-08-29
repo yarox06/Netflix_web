@@ -60,11 +60,13 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 15px;
+   
 }
 
 nav ul li a {
     color: #ffffff;
     text-decoration: none;
+    
 }
 
 .hero {
@@ -172,6 +174,7 @@ header.navbar {
 .search-form {
     display: flex;
     align-items:flex-start;
+  
     width: 400px;
 }
 
@@ -199,3 +202,8 @@ header.navbar {
     background-color: #f40612; 
 }
 
+
+h4 {
+    color: #b10000;
+    text-decoration: none;
+}

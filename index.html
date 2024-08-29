@@ -16,8 +16,7 @@
             padding: 0;
             align-items: center;
             min-height: 100vh; 
-            
-           
+
         }
 
         button {
@@ -29,6 +28,7 @@
             font-size: 16px;
             cursor: pointer;
             transition: background-color 0.3s ease;
+            
         
            
         }
@@ -71,6 +71,7 @@
             text-decoration: none;
             font-size: 16px;
         }
+      
     </style>
 </head>
 <body>
@@ -80,18 +81,20 @@
             <nav>
                 <ul>
                     <li><a href="#home">Accueil</a></li>
-                   
+                    <li><a href="contact.html">Contactez-nous</a></li>
                     <li><a href="account.html">Profil</a></li>
                     <li><a href="abonnement.html">Abonnement</a></li>
                     <li><a href="login.html">Se connecter</a></li>
-                    <li><form action="/index.html" method="get">
+                    <form action="/index.html" method="get">
                         <input type="text" name="q" placeholder="Rechercher..." class="search-input">
                         <button type="submit" class="search-button">🔍</button>
                         <button id="toggle-dark-mode">🌙</button>
-                    </form></li>
+                    </form>
                 </ul>
                 
             </nav>
+           
+        
         </div>
     </header>
 
@@ -187,11 +190,6 @@
     
 
     <a href="#top"><h4 id="end" >allez en haut de la page</h4></a>
-    <footer>
-      <div hidden class="container">
-        <p>&copy; 2024 Netflix. Tous droits réservés.</p>
-      </div>
-    </footer>
   </body>
   <script src="script.js"></script>
 </html>
