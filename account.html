@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Netflix</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+          <h1 id="top">Netflix</h1>
+          </header>
+    <style>
+  
+
+
+
+header h1 {
+    color: #e50914;
+    margin: 0;
+    font-size: 24px;
+}
+        body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: #e5e5e5;
+}
+
+.profile-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #333;
+    border-radius: 8px;
+    padding: 20px;
+   
+    
+    
+    box-shadow: 1px 3px 20px 5px rgba(255,2,2,0.75);
+-webkit-box-shadow: 1px 3px 20px 5px rgba(255,2,2,0.75);
+-moz-box-shadow: 1px 3px 20px 5px rgba(255,2,2,0.75);
+
+}
+
+.profile-header h1 {
+    text-align: center;
+    color: #e50914;
+    margin: 0;
+}
+
+.profile-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.profile-picture img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #e50914;
+}
+
+.profile-info {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.profile-info h2 {
+    margin: 0;
+    color: #fff;
+}
+
+.profile-info p {
+    margin: 5px 0;
+    color: #ccc;
+}
+
+.profile-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-edit, .btn-logout {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-edit:hover, .btn-logout:hover {
+    background-color: #f40612;
+}
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+
+}
+
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor:default;
+    border: none;
+    background-color: #ffffff;
+  
+   
+}
+
+
+body.dark-mode {
+    background-color: #000000;
+    color: #e0e0e0;
+    
+   
+}
+
+header.dark-mode {
+    background-color: #1e1e1e;
+    
+    
+}
+
+button.dark-mode {
+    background-color: #000000;
+    color: #e0e0e0;
+    border: none;
+  
+   
+}
+
+    </style>
+     
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+
+    </ul>
+    <ul>
+        <li><a href="login.html">Retour</a></li>
+    </ul>
+    <button id="toggle-dark-mode">🌙</button>
+    <div class="profile-container">
+        <div class="profile-header">
+            <h1>Profil</h1>
+        </div>
+        <div class="profile-content">
+            <div class="profile-picture">
+                <img src="pdp.jpg" alt="Photo de profil">
+            </div>
+            <div class="profile-info">
+                <h2>Nom d'utilisateur</h2>
+                <p>Type de compte : Standard</p>
+                <p>Adresse email : utilisateur@Gmail.com</p>
+                <p>Dernière connexion : 10 août 2024</p>
+            </div>
+        </div>
+        <div class="profile-footer">
+            <a href="profil.html"><button class="btn-edit">Modifier Profil</button></a>
+            <a href="login.html"><button class="btn-logout">Déconnexion</button></a>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Se connecter</title>
+  </head>
+  <style>
+    
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #141414; 
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+
+.login-container {
+    max-width: 400px;
+    margin: 5rem auto;
+    padding: 2rem;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 1px 3px 20px 5px rgba(255,2,2,0.75);
+-webkit-box-shadow: 1px 3px 20px 5px rgba(255,2,2,0.75);
+-moz-box-shadow: 1px 3px 20px 5px rgba(255,2,2,0.75);
+}
+
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #222;
+    color: #fff;
+}
+
+button {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #f40612;
+   text-align: center;
+}
+
+
+.forgot-password {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.forgot-password a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+  
+    text-decoration: underline;
+}
+header h1 {
+    color: #e50914;
+    margin: 0;
+    font-size: 24px;
+    display: flex;
+   
+}
+header {
+    
+    background-color: #000000;
+    color: #b00000;
+   
+    padding: 20px 0;
+    height: 50px;
+    width: 100%;
+    border-bottom: #9f0000 solid 5px;
+    
+    
+    
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+    display: inline;
+    margin-left: 15px;
+    
+}
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+  </style>
+  <body>
+    <header>
+      <div class="container">
+        <h1 id="top">Netflix</h1>
+        <br>
+        
+        <nav><ul>
+          <li><a href="index.html">Accueil</a></li>
+          </ul>
+          <ul>
+            <li>
+              <a href="account.html">Profil</a>
+            </li>
+          </ul></nav>
+        </header>
+    
+      <div class="login-container">
+        <h1>Se Connecter</h1>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="email">Adresse e-mail :</label>
+                <input type="email" id="email" name="email" placeholder="Votre e-mail" >
+            </div>
+
+            <div class="form-group">
+                <label for="password">Mot de passe :</label>
+                <input type="password" id="password" name="password" placeholder="Votre mot de passe" >
+            </div>
+
+           <a href="account.html" ><button type="submit">Se connecter</button></a>
+
+            <a href="password.html"><p class="forgot-password">Mot de passe oublié ?</p></a>
+        </form>
+    </div>
+    
+     
+   
+      
+      
+  
+  </body>
+  
+</html>

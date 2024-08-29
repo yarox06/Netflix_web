@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css" />
+    <link  rel="icon" href="neto.png" type="image/x-icon"/>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            color: #000000;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.5s ease, color 0.5s ease;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            min-height: 100vh; 
+            
+           
+        }
+
+        button {
+            padding: 10px 20px;
+           border: none;
+           border-radius: 30px;
+            background-color: #141414;
+            color: #000000; 
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        
+           
+        }
+
+        button:hover {
+            background-color: #222222; 
+        }
+
+        .content {
+            text-align: center;
+            
+        }
+
+        body.dark-mode {
+            background-color:#000000;
+            color: #ffffff;
+        }
+
+        body.dark-mode img {
+            transition: box-shadow 0.5s;
+            box-shadow: 0px 4px 39px -1px rgba(255,0,0,0.78);
+            -webkit-box-shadow: 0px 4px 39px -1px rgba(255,0,0,0.78);
+            -moz-box-shadow: 0px 4px 39px -1px rgba(255,0,0,0.78);
+        }
+
+        body.dark-mode button {
+            background-color: #181717;
+            color: #ffffff; 
+            border: none;
+            
+        }
+
+        body.dark-mode button:hover {
+            background-color: #202020;
+        }
+
+        
+        .scroll-to-top {
+            color: #000000;
+            text-decoration: none;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+        <h1 id="top">Netflix</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Accueil</a></li>
+                   
+                    <li><a href="account.html">Profil</a></li>
+                    <li><a href="abonnement.html">Abonnement</a></li>
+                    <li><a href="login.html">Se connecter</a></li>
+                    <li><form action="/index.html" method="get">
+                        <input type="text" name="q" placeholder="Rechercher..." class="search-input">
+                        <button type="submit" class="search-button">🔍</button>
+                        <button id="toggle-dark-mode">🌙</button>
+                    </form></li>
+                </ul>
+                
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="containers">
+            <h2>Bienvenue sur Netflix</h2>
+            <p>Découvrez vos films et séries préférés.</p>
+            <a href="#films" class="btn">Voir les films</a>
+            <a href="#Séries" class="btn">Voir Les Séries</a>
+        </div>
+    </section>
+
+    
+
+    <section id="films">
+        <div  class="container">
+            <h2>Nos Films</h2>
+            <div class="film-grid">
+                <div class="film">
+                    <a href="https://www.youtube.com/watch?v=LDUAVXagY0M" target="_blank">
+                        <img src="deadpool.PNG" alt="Deadpool & Wolverine" />
+                    </a>
+                    <h3>Deadpool & Wolverine</h3>
+                </div>
+                <div class="film">
+                    <a href="https://www.youtube.com/watch?v=CoXtvSRpHgM" target="_blank">
+                        <img src="oppen.PNG" alt="Oppenheimer" />
+                    </a>
+                    <h3>Oppenheimer</h3>
+                </div>
+                <div class="film">
+                    <a href=""><img src="jumanji.PNG" alt=""></a>
+                    <h3>Jumanji</h3>
+
+                </div>
+                <div class="film">
+                    <a href=""><img src="it.PNG" alt=""></a>
+                    <h3>It</h3>
+
+                </div>
+                <div class="film">
+               <a href=""><img src="vice versa.PNG" alt=""></a>
+                    <h3>Indide out 2</h3>
+                </div>
+                <div class="film">
+                    <a href=""><img src="f&f.PNG" alt=""></a>
+                    <h3>Fast and Furious X</h3>
+                </div>
+        </div>
+    </section>
+
+    <section id="Séries">
+        <div class="container">
+            <h2>Nos Séries</h2>
+            <div class="film-grid">
+                <div class="film">
+                    <a href="https://www.youtube.com/watch?v=GYoD8oOH31M" target="_blank">
+                        <img src="squid game.PNG" alt="Squid Game" />
+                    </a>
+                    <h3>Squid Game</h3>
+                </div>
+                <div class="film">
+                    <a href="https://www.youtube.com/watch?v=RCOSpMygVjI" target="_blank">
+                        <img src="stranger things.PNG" alt="Stranger Things" />
+                    </a>
+                    <h3>Stranger Things</h3>
+                </div>
+                <div class="film">
+                    <a href="https://www.youtube.com/watch?v=gCmuYqeeNpc" target="_blank">
+                        <img src="lupin.PNG" alt="Lupin" />
+                    </a>
+                    <h3>Lupin</h3>
+                  </div>
+                  <div class="film">
+                    <a href="https://www.youtube.com/watch?v=d887hRFpmzs" target="_blank"><img src="teen.jpg" alt=""></a>
+                    <h3>Teen Titans</h3>
+
+                  </div>
+                  <div class="film">
+                    <a href="https://www.youtube.com/watch?v=7O239-jHa6E" target="_blank"><img src="alice.webp" alt=""></a>
+                    <h3>Alice In Borderland</h3>
+
+                  </div>
+                  <div class="film">
+                    <a href="https://www.youtube.com/watch?v=-Yo_lxZ6Z0k" target="_blank"><img src="parasite.jpg" alt=""></a>
+                    <h3>Parasite</h3>
+
+                  </div>
+
+    </section>
+
+    
+    
+
+    <a href="#top"><h4 id="end" >allez en haut de la page</h4></a>
+    <footer>
+      <div hidden class="container">
+        <p>&copy; 2024 Netflix. Tous droits réservés.</p>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
