@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error('Le bouton avec l\'ID "toggle-dark-mode" est introuvable.');
         return;
     }
-
+    
     toggleButton.addEventListener('click', () => {
         body.classList.toggle('dark-mode');
         toggleButton.classList.toggle('dark-mode');

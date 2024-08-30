@@ -9,9 +9,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-  
+   
 
 }
+  
 .containers {
     width: 80%;
     margin: 0 auto;
@@ -35,9 +36,9 @@ header {
     padding: 20px 0;
     height: 150px;
     width: 100%;
-    border-bottom: #9f0000 solid 5px;
+    border-bottom: #e30000 solid 5px;
     
-    
+
     
 }
 
@@ -66,14 +67,18 @@ nav ul li {
 nav ul li a {
     color: #ffffff;
     text-decoration: none;
-    
+       
 }
 
 .hero {
-    background-color: #141414;
-    color: #ffffff;
-    text-align: center;
+    color: #000000;
+    text-align:left;
+    text-shadow: -3px 2px 10px rgb(170, 170, 170);
     padding: 100px 0;
+    background-image: url('https://www.whats-on-netflix.com/wp-content/uploads/2023/01/netflix-category-codes-2024-jpg.webp'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;    
 }
 
 .hero h2 {
@@ -89,6 +94,7 @@ nav ul li a {
     color: #ffffff;
     padding: 10px 20px;
     text-decoration: none;
+    text-shadow: none;
     border-radius: 5px;
     font-weight: bold;
 }
@@ -107,13 +113,14 @@ h2 {
     flex-wrap: wrap;
     gap: 20px;
     align-items: center;
-
+    
 }
 
 .film {
     flex: 1 1 calc(33.333% - 20px);
     box-sizing: border-box;
     text-align: center;
+  
 
 }
 
