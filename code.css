@@ -6,7 +6,7 @@ body {
     padding: 0;
     background-color: #000000;
     color: #ffffff;
- 
+   
 }
 
 header {
@@ -41,6 +41,7 @@ nav ul li a {
 
 h1 {
     margin: 0;
+    text-shadow: -3px 4px 4px rgb(137, 0, 0);
 }
 
 main {
@@ -56,6 +57,7 @@ h2 {
     padding-bottom: 5px;
     margin-bottom: 10px;
     font-size: 24px;
+    text-shadow: -3px 4px 4px  rgb(202, 0, 0);
 }
 
 ul {
@@ -77,3 +79,36 @@ section h2 {
     font-size: 28px;
     color: #ff0000;
 }
+.search-form {
+    display: flex;
+    align-items:flex-start;
+  
+    width: 400px;
+}
+
+.search-input {
+    padding: 0.5rem;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+    outline: none;
+    align-items: center;
+    margin-left:900px;
+}
+
+.search-button {
+    background-color: #131313; 
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 0.5rem;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+}
+
+.search-button:hover {
+    background-color: #f40612; 
+}
+

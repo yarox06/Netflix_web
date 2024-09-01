@@ -4,6 +4,10 @@ body {
     color: #fff;
     margin: 0;
     padding: 0;
+    background-image: url("./netflix-octobre-contenus-2022.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
   }
   header h1 {
     color: #e50914;
@@ -46,6 +50,7 @@ nav ul li a {
     text-decoration: none;
 }
   .main-content {
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,8 +61,8 @@ nav ul li a {
     max-width: 500px;
     width: 100%;
     padding: 2rem;
-    
-    background-color: #333;
+  
+    background-color: #3333338e;
     border-radius: 16px;
     box-shadow: 1px 3px 20px 5px rgba(255,2,2,0.75);
 -webkit-box-shadow: 1px 3px 20px 5px rgba(255,2,2,0.75);
@@ -66,6 +71,7 @@ nav ul li a {
 
   .form-group {
     margin-bottom: 1rem;
+
   }
 
   label {
@@ -82,6 +88,7 @@ nav ul li a {
       display: block;
     margin-bottom: 0.5rem;
     font-weight: bold;
+    
   }
 
  

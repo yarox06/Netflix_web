@@ -7,14 +7,19 @@ body {
     height: 100vh;
     margin: 0;
     padding: 20px;
+    background-image: url("./netflix-octobre-contenus-2022.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;  
 }
+
 .container {  
     display: flex;
     gap: 90px;
 
 }
 .card {
-    background-color: #333;
+    background-color: #333333b6;
     border-radius: 8px;
     height: 400px;
     width: 300px;
@@ -27,31 +32,37 @@ body {
 
 .card h2 {
     color: #e50914;
+    text-shadow: -3px 4px 4px rgb(0, 0, 0);
 }
 .card p {
     
     color: #ff0000;
     font-size: 16px;
+    text-shadow: -3px 4px 4px rgb(0, 0, 0);
 }
 .card .price {
     font-size: 24px;
     color: #e50914;
     margin: 20px 0;
+    text-shadow: -3px 4px 4px rgb(0, 0, 0);
 }
 .card button {
     background-color: #e50914;
-    border: 8px;
-  
+    border: none;
+  border-radius: 10px;
     color: #fff;
     cursor: pointer;
     font-size: 16px;
     padding: 10px 20px;
+    box-shadow: 0px 4px 39px -1px rgba(0, 0, 0, 0.78);
+    -webkit-box-shadow: 0px 4px 39px -1px rgba(0, 0, 0, 0.78);
+    -moz-box-shadow: 0px 4px 39px -1px rgba(0, 0, 0, 0.78);
 }
 .card button:hover {
     background-color: #b81d24;
 }
 .carde {
-    background-color: #333;
+    background-color: #333333b6;
     border-radius: 8px;
     height: 400px;
     width: 300px;
@@ -63,25 +74,31 @@ body {
 }
 .carde h2 {
     color: #e50914;
+    text-shadow: -3px 4px 4px rgb(0, 0, 0);
 }
 .carde p {
     
     color: #ff0000;
     font-size: 16px;
+    text-shadow: -3px 4px 4px rgb(0, 0, 0);
 }
 .carde .price {
     font-size: 24px;
     color: #e50914;
     margin: 20px 0;
+    text-shadow: -3px 4px 4px rgb(0, 0, 0);
 }
 .carde button {
     background-color: #e50914;
-    border: 8px;
-  
+    border: none;
+  border-radius: 10px;
     color: #fff;
     cursor: pointer;
     font-size: 16px;
     padding: 10px 20px;
+    box-shadow: 0px 4px 39px -1px rgba(0, 0, 0, 0.78);
+    -webkit-box-shadow: 0px 4px 39px -1px rgba(0, 0, 0, 0.78);
+    -moz-box-shadow: 0px 4px 39px -1px rgba(0, 0, 0, 0.78);
 }
 .carde button:hover {
     background-color: #b81d24;
@@ -115,6 +132,7 @@ body {
 
 
 header h1 {
+    text-shadow: -3px 4px 4px rgb(0, 0, 0);
 color: #e50914;
 margin: 0;
 font-size: 24px;
@@ -133,6 +151,8 @@ text-decoration: none;
 
 }
 nav ul li a {
+    text-shadow: -3px 4px 4px rgba(255,0,0,1);
+    font-size: large;
     color: #ffffff;
     text-decoration: none;
 }

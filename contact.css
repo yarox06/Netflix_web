@@ -1,9 +1,10 @@
 body {
-    background-color:#070707 ;
+   
     font-family: Arial, sans-serif;
     color: #333;
     margin: 0;
     padding: 0;
+   
 }
 
 header {
@@ -24,18 +25,20 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
- 
+    background-image: url("./netflix-octobre-contenus-2022.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 
 .contact-form {
     max-width: 600px;
     width: 100%;
-    background-color: #1e1e1e;
+    background-color: #1e1e1e91;
     border-radius: 8px;
     padding: 30px;
-    box-shadow: 0px 4px 39px -1px rgba(255,0,0,0.78);
-    -webkit-box-shadow: 0px 4px 39px -1px rgba(255,0,0,0.78);
-    -moz-box-shadow: 0px 4px 39px -1px rgba(255,0,0,0.78);
+    
+    
 }
 
 .contact-form h1 {
@@ -54,8 +57,8 @@ main {
 
 .contact-form input,
 .contact-form textarea {
-    background-color: #333;
-color: beige;
+    background-color: #3333339a;
+color: rgba(245, 245, 220, 0.717);
     width: 100%;
     height: 80%;  padding: 10px;
     border: none;
