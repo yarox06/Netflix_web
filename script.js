@@ -25,6 +25,8 @@ document.addEventListener('DOMContentLoaded', () => {
         toggleButton.classList.add('dark-mode');
         toggleButton.textContent = ' ☀️';
     }
+    
+
 });
 
 
