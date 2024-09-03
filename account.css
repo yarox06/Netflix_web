@@ -26,7 +26,8 @@ header {
     text-align: center;
     border-bottom: 1px solid #333;
     text-decoration: none;
-    border-bottom: #9f0000 solid 5px;
+    box-shadow: -3px 4px 4px #ff000d;
+    border-bottom:  #ff000d solid 5px;
     
     
     
@@ -54,7 +55,7 @@ nav ul li a {
     width: 80%;
     max-width: 800px;
     margin: 20px auto;
-    background-color: #333333a2;
+    background-color: #000000b0;
     border-radius: 8px;
     padding: 20px;
   

@@ -3,6 +3,7 @@
     box-sizing: border-box; 
     align-items: center;
     flex-direction: row;
+    overflow-x: hidden;
 }
 
 body {
@@ -36,6 +37,7 @@ header {
     padding: 20px 0;
     height: 150px;
     width: 100%;
+   
     border-bottom: #e30000 solid 5px;
     
 
@@ -74,9 +76,9 @@ nav ul li a {
 }
 
 .hero {
-    color: #000000;
+    color: #ffffff;
     text-align:right;
-    text-shadow: -3px 2px 10px rgb(170, 170, 170);
+    text-shadow: -3px 2px 10px rgb(255, 0, 0);
     padding: 100px 0;
     background-image: url("./Netflixau.png"); 
     background-size: cover; 
@@ -215,8 +217,11 @@ header.navbar {
     background-color: #f40612; 
 }
 
-
-h4 {
-    color: #b10000;
-    text-decoration: none;
+#end{
+   background-color: #d30000 ;
+   color: #ffffff ;
+   position: absolute;
+   right:15px ;
+   scale: 3;
+  
 }
