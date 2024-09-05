@@ -113,3 +113,19 @@ nav ul li a {
     color: #ffffff;
     text-decoration: none;
 }
+@media (max-width: 1024px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Pour les écrans mobiles (max-width: 768px) */
+@media (max-width: 768px) {
+    body {
+        font-size: 12px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}
