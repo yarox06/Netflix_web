@@ -1,5 +1,5 @@
 body {
-   
+   background-color: #181818;
     font-family: Arial, sans-serif;
     color: #333;
     margin: 0;
@@ -114,18 +114,71 @@ nav ul li a {
     text-decoration: none;
 }
 @media (max-width: 1024px) {
-    body {
-        font-size: 14px;
+    .logo img {
+        width: 120px; /* Réduit la taille du logo pour les écrans plus petits */
+    }
+
+    .contact-form {
+        padding: 20px; /* Réduit le padding pour plus d'espace */
+    }
+
+    .contact-form h1 {
+        font-size: 20px; /* Ajuste la taille du titre */
+    }
+
+    nav ul {
+        flex-direction: column; /* Réorganise les éléments de navigation en colonne */
+        align-items: center;
+        margin-left: 0;
+    }
+
+    nav ul li {
+        margin-bottom: 10px; /* Ajoute un espace entre les éléments de navigation */
+    }
+
+    main {
+        padding: 10px; /* Réduit le padding du main pour les petits écrans */
     }
 }
 
-/* Pour les écrans mobiles (max-width: 768px) */
+/* Pour les écrans mobiles */
 @media (max-width: 768px) {
-    body {
-        font-size: 12px;
+    .logo img {
+        width: 100px; /* Réduit davantage la taille du logo pour les petits écrans */
     }
 
-    .container {
-        padding: 10px;
+    .contact-form {
+        padding: 15px; /* Réduit le padding pour les très petits écrans */
+    }
+
+    .contact-form h1 {
+        font-size: 18px; /* Réduit la taille du titre */
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        height: auto; /* Ajuste la hauteur des champs de saisie */
+        padding: 8px; /* Réduit le padding pour les petits écrans */
+    }
+
+    .contact-form button {
+        padding: 8px 16px; /* Réduit le padding du bouton */
+        font-size: 14px; /* Ajuste la taille de la police du bouton */
+    }
+
+    footer {
+        padding: 5px; /* Réduit le padding du footer */
+    }
+
+    nav ul {
+        flex-direction: column; /* Maintient la colonne pour les très petits écrans */
+    }
+
+    nav ul li {
+        margin-bottom: 5px; /* Réduit l'espacement entre les éléments de navigation */
+    }
+
+    main {
+        padding: 5px; /* Réduit le padding du main */
     }
 }

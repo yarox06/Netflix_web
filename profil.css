@@ -57,16 +57,14 @@ nav ul li a {
     min-height: calc(100vh - 80px);
   }
 
-  */ .profile-container {
+   .profile-container {
     max-width: 500px;
     width: 100%;
     padding: 2rem;
   
-    background-color: #33333380;
+    background-color: #000000c9;
     border-radius: 16px;
-    box-shadow: 1px 3px 20px 5px rgba(255,2,2,0.75);
--webkit-box-shadow: 1px 3px 20px 5px rgba(255,2,2,0.75);
--moz-box-shadow: 1px 3px 20px 5px rgba(255,2,2,0.75);
+  
   }
 
   .form-group {
@@ -84,7 +82,7 @@ nav ul li a {
   input[type="email"],
   
   textarea {
-      background-color: #555;
+     background-color: #333333d7;
       display: block;
     margin-bottom: 0.5rem;
     font-weight: bold;
@@ -118,8 +116,10 @@ nav ul li a {
     body {
         font-size: 12px;
     }
-
+ 
     .container {
         padding: 10px;
     }
+  
+  
 }
