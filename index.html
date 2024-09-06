@@ -8,25 +8,20 @@
     <link  rel="icon" href="neto.png" type="image/x-icon"/>
   </head>
   <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-            
-            </ul>
-    </nav>
-    <a href="index.html">
+   
+ 
       <div class="video-container">
         <video id="introVideo" autoplay controls>
           <source src="netflix.mp4" type="video/mp4" />
         </video></div
-    ></a>
+    >
   </body>
   <script>
     // Redirige vers la page d'accueil après la fin de la vidéo
     document
       .getElementById("introVideo")
       .addEventListener("ended", function () {
-      
+        window.location.href = './page2.html'; // Remplacez 'accueil.html' par le nom de votre fichier HTML
       });
   </script>
 </html>
