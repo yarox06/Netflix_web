@@ -206,7 +206,7 @@ nav ul li a {
     }
 }
 
-/* Pour les écrans mobiles (max-width: 768px) */
+
 @media (max-width: 768px) {
     body {
         font-size: 12px;

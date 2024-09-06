@@ -151,7 +151,7 @@ nav ul li a {
     }
 }
 
-/* Pour les écrans mobiles */
+
 @media (max-width: 768px) {
     .login-container {
         padding: 1rem;
