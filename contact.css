@@ -4,7 +4,7 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
-   
+   overflow-x: hidden;
 }
 
 header {
@@ -115,70 +115,72 @@ nav ul li a {
 }
 @media (max-width: 1024px) {
     .logo img {
-        width: 120px; /* Réduit la taille du logo pour les écrans plus petits */
+        width: 120px; 
     }
 
     .contact-form {
-        padding: 20px; /* Réduit le padding pour plus d'espace */
+        padding: 20px;
     }
 
     .contact-form h1 {
-        font-size: 20px; /* Ajuste la taille du titre */
+        font-size: 20px; 
     }
 
     nav ul {
-        flex-direction: column; /* Réorganise les éléments de navigation en colonne */
+        flex-direction: column; 
         align-items: center;
         margin-left: 0;
     }
 
     nav ul li {
-        margin-bottom: 10px; /* Ajoute un espace entre les éléments de navigation */
+        margin-bottom: 10px; 
     }
 
     main {
-        padding: 10px; /* Réduit le padding du main pour les petits écrans */
-    }
+        padding: 10px; 
 }
 
-/* Pour les écrans mobiles */
+}
+
 @media (max-width: 768px) {
     .logo img {
-        width: 100px; /* Réduit davantage la taille du logo pour les petits écrans */
+        width: 100px; 
     }
 
     .contact-form {
-        padding: 15px; /* Réduit le padding pour les très petits écrans */
+        padding: 15px;
     }
 
     .contact-form h1 {
-        font-size: 18px; /* Réduit la taille du titre */
+        font-size: 18px; 
     }
 
     .contact-form input,
     .contact-form textarea {
-        height: auto; /* Ajuste la hauteur des champs de saisie */
-        padding: 8px; /* Réduit le padding pour les petits écrans */
+        height: auto; 
+        padding: 8px;
     }
 
     .contact-form button {
-        padding: 8px 16px; /* Réduit le padding du bouton */
-        font-size: 14px; /* Ajuste la taille de la police du bouton */
+        padding: 8px 16px; 
+        font-size: 14px; 
     }
 
     footer {
-        padding: 5px; /* Réduit le padding du footer */
+        padding: 5px;
+    height: 30px;
     }
 
     nav ul {
-        flex-direction: column; /* Maintient la colonne pour les très petits écrans */
+        flex-direction: column;
     }
 
     nav ul li {
-        margin-bottom: 5px; /* Réduit l'espacement entre les éléments de navigation */
+        margin-bottom: 5px;
     }
 
     main {
-        padding: 5px; /* Réduit le padding du main */
-    }
+        padding: 5px; 
 }
+}
+   

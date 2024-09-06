@@ -24,8 +24,8 @@
         
         button {
             padding: 10px 20px;
-           border: none;
-           border-radius: 30px;
+            border: none;
+            border-radius: 30px;
             background-color: #141414;
             color: #ffffff; 
             font-size: 16px;
@@ -71,14 +71,20 @@
         
         .scroll-to-top {
 
-            color: #000000;
-            text-decoration: none;
-            font-size: 16px;
-        }
+color: #000000;
+text-decoration: none;
+font-size: 16px;
+}
 
     </style>
 </head>
 <body>
+    <div class="video-container">
+        <video id="introVideo"  autoplay controls  >
+         <source src="netflix.mp4" type="video/mp4">
+        
+     </video>
+         </div>
  <header>
         <div class="containere">
         <h1 id="top">Netflix</h1>
@@ -109,7 +115,8 @@
 
                 </div>
         </header>
-       
+      
+
     <section  id="home" class="hero">
         <div  class="containers">
             <h2>Bienvenue sur Netflix</h2>
@@ -211,5 +218,11 @@
 
     <a id="end" href="#top"> <i class='bx bx-chevrons-up'></i></a>
   </body>
+  <script>
+    // Redirige vers la page d'accueil après la fin de la vidéo
+    document.getElementById('introVideo').addEventListener('ended', function() {
+        window.location.href = 'https://yarox06.github.io/Netflix_web/'; // Remplacez par l'URL de votre page d'accueil
+    });
+</script>
   <script src="script.js"></script>
 </html>
