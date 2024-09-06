@@ -21,6 +21,7 @@ body {
 }
 h1{
     text-shadow: -3px 4px 4px rgb(0, 0, 0);
+    
 }
 
 .form-group {
@@ -87,6 +88,7 @@ header h1 {
     justify-content: center;
     display: flex;
     text-shadow: -3px 4px 4px rgb(160, 0, 0);
+    font-size: 40px;
 }
 header {
     
