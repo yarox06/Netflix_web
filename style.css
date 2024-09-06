@@ -180,7 +180,7 @@ h2{
     flex-wrap: wrap;
     gap: 20px;
     align-items: center;
-
+    overflow-y: hidden;
     
 }
 

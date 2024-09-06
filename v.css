@@ -6,18 +6,18 @@
     height: 100%;
     overflow: hidden;
     z-index: 1; 
-   /* Met la vidéo en arrière-plan */
+  
 }
 video {
     width: 100%;
     height: 100%;
     object-fit:contain; 
-    /* Ajuste la vidéo pour couvrir l'écran */
+    
 }
 
 .content {
     position: relative;
-     /* Assure que le contenu est au-dessus de la vidéo */
+   
 }
 
 body{
