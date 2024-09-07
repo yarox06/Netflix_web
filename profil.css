@@ -59,10 +59,10 @@ nav ul li a {
   }
 
    .profile-container {
-    max-width: 500px;
+    max-width: 300px;
     width: 100%;
     padding: 2rem;
-  
+    
     background-color: #000000c9;
     border-radius: 16px;
   
@@ -81,14 +81,16 @@ nav ul li a {
 
   input[type="text"],
   input[type="email"],
+  input[type="password"],
   
   textarea {
-     background-color: #333333d7;
+     background-color: #2e2e2ede;
       display: block;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     font-weight: bold;
-    
-    
+    border: none;
+    border-radius: 3Px;
+    color: #fff;
   }
 
  

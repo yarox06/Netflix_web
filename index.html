@@ -1,27 +1,218 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="fr">
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Accueil</title>
-    <link rel="stylesheet" href="v.css" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css" />
     <link  rel="icon" href="neto.png" type="image/x-icon"/>
-  </head>
-  <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            color: #1f1e1e;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.5s ease, color 0.5s ease;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            min-height: 100vh; 
+           
+
+        }
+        
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 30px;
+            background-color: #141414;
+            color: #ffffff; 
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-left:45px;
+        
+           
+        }
+
+        button:hover {
+            background-color: #222222; 
+        }
+
+        .content {
+            text-align: center;
+            
+        }
+
+        body.dark-mode {
+            background-color:#000000;
+            color: #ffffff;
+        }
+
+        body.dark-mode img {
+            transition: box-shadow 0.5s;
+            box-shadow: 0px 4px 39px -1px rgba(255,0,0,0.78);
+    -webkit-box-shadow: 0px 4px 39px -1px rgba(255,0,0,0.78);
+    -moz-box-shadow: 0px 4px 39px -1px rgba(255,0,0,0.78);
+        }
+
+        body.dark-mode button {
+            background-color: #181717;
+            color: #ffffff; 
+            border: none;
+            
+        }
+
+        body.dark-mode button:hover {
+            background-color: #202020;
+        }
+
+        
+        .scroll-to-top {
+
+color: #000000;
+text-decoration: none;
+font-size: 16px;
+}
+
+    </style>
+</head>
+<body>
    
- 
-      <div class="video-container">
-        <video id="introVideo" autoplay controls>
-          <source src="netflix.mp4" type="video/mp4" />
-        </video></div
-    >
+ <header>
+        <div class="containere">
+        <h1 id="top">Netflix</h1>
+        <br>
+        
+
+            <nav>
+               
+                <ul>
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="contact.html">Contactez-nous</a></li>
+                    <li><a href="account.html">Profil</a></li>
+                    <li><a href="code.html">Codes de Catégories</a></li>
+                    <li><a href="abonnement.html">Abonnement</a></li>
+                    <li><a href="login.html">S'identifier</a></li>
+                    
+                    
+            <form>
+                 <input type="text" name="q" placeholder="Rechercher votre film" class="search-input">
+                 <button type="submit" class="search-button">🔍</button>
+                 <button id="toggle-dark-mode">🌙</button>
+            </form>
+            
+                    
+                  </ul>
+         </nav>
+
+
+                </div>
+        </header>
+      
+
+    <section  id="home" class="hero">
+        <div  class="containers">
+            <h2>Bienvenue sur Netflix</h2>
+            <br>
+             <br>
+            <p>Découvrez vos films et séries préférés.</p>
+            <br>
+            <a href="#films" class="btn">Voir les films 🍿</a>
+            <a href="#Séries" class="btn">Voir Les Séries 🎬</a>
+        </div>
+    </section>
+    
+     
+    <section  id="films">
+        <div  class="container">
+            
+            <h2>Nos Films</h2>
+            <div class="animate__animated animate__fadeIn" >
+                <div  class="film-grid">
+                    <div class="film">
+                        <a  href="https://coflix.plus/film/deadpool-wolverine/" target="_blank">
+                            <img  src="deadpool.PNG" alt="Deadpool & Wolverine" />
+                        </a>
+                        <h3>Deadpool & Wolverine</h3>
+                    </div>
+                    <div class="film">
+                        <a href="https://coflix.plus/film/oppenheimer/" target="_blank">
+                            <img src="oppen.PNG" alt="Oppenheimer" />
+                        </a>
+                        <h3>Oppenheimer</h3>
+                    </div>
+                    <div class="film">
+                        <a href="https://coflix.plus/film/jumanji-bienvenue-dans-la-jungle/" target="_blank"><img src="jumanji.PNG" alt=""></a>
+                        <h3>Jumanji</h3>
+    
+                    </div>
+                    <div class="film">
+                        <a href="https://coflix.plus/film/conjuring-les-dossiers-warren/" target="_blank"><img src="conjuring.jpg" alt=""></a>
+                        <h3>conjuring </h3>
+    
+                    </div>
+                    <div class="film">
+                   <a href="https://coflix.plus/film/moi-moche-et-mechant-4/" target="_blank"><img src="moi moche et mechant.jpg" alt=""></a>
+                        <h3>Moi moche et méchant 4</h3>
+                    </div>
+                    <div class="film">
+                        <a href="https://coflix.plus/film/sous-la-seine/" target="_blank"><img src="sous la seine.jpg" alt=""></a>
+                        <h3>Sous la seine</h3>
+                    </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <section id="Séries">
+        <div class="container">
+            <h2>Nos Séries</h2>
+            <div class="animate__animated animate__fadeIn" >
+                <div class="film-grid">
+                    <div class="film">
+                        <a href="https://coflix.plus/serie/squid-game/ " target="_blank">
+                            <img src="squid game.PNG" alt="Squid Game" />
+                        </a>
+                        <h3>Squid Game</h3>
+                    </div>
+                    <div class="film">
+                        <a href="https://coflix.plus/serie/the-last-of-us-p1/" target="_blank">
+                            <img src="the last of us.jpg" alt="Stranger Things" />
+                        </a>
+                        <h3>The last of us</h3>
+                    </div>
+                    <div class="film">
+                        <a href="https://coflix.plus/serie/lupin/" target="_blank">
+                            <img src="lupin.PNG" alt="Lupin" />
+                        </a>
+                        <h3>Lupin</h3>
+                      </div>
+                      <div class="film">
+                        <a href="https://coflix.plus/serie/breaking-bad/" target="_blank"><img src="bad.jpg" alt=""></a>
+                        <h3>breaking bad</h3>
+    
+                      </div>
+                      <div class="film">
+                        <a href="https://coflix.plus/serie/alice-in-borderland/" target="_blank"><img src="alice.webp" alt=""></a>
+                        <h3>Alice In Borderland</h3>
+    
+                      </div>
+                      <div class="film">
+                        <a href="https://coflix.plus/film/parasite/" target="_blank"><img src="parasite.jpg" alt=""></a>
+                        <h3>Parasite</h3>
+    
+            </div>
+                  </div>
+
+    </section>
+
+
+
+
+    <a id="end" href="#top"> <i class='bx bx-chevrons-up'></i></a>
   </body>
-  <script>
-  
-    document
-      .getElementById("introVideo")
-      .addEventListener("ended", function () {
-        window.location.href = './page2.html'; 
-      });
-  </script>
+ 
+  <script src="script.js"></script>
 </html>
