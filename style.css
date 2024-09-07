@@ -330,7 +330,9 @@ header.navbar {
         scale: 1;
         
     }
-
+.film-grid{
+    overflow-y: hidden;
+}
     .search-form {
         width: 100%;
     }
