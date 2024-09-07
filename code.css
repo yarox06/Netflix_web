@@ -6,7 +6,8 @@ body {
     padding: 0;
     background-color: #000000;
     color: #ffffff;
-   
+   overflow-x: hidden;
+  
 }
 
 header {
@@ -37,6 +38,7 @@ nav ul li {
 nav ul li a {
     color: #ffffff;
     text-decoration: none;
+    text-shadow: -4px 3px 6px rgb(255, 255, 255);
 }
 
 h1 {
@@ -111,7 +113,14 @@ section h2 {
 .search-button:hover {
     background-color: #f40612; 
 }
-
+#end{
+    background-color: #d30000 ;
+    color: #ffffff ;
+    position: absolute;
+    right:15px ;
+    scale: 3;
+   
+ }
 @media (max-width: 1024px) {
     .search-form {
         width: 100%;
@@ -121,7 +130,7 @@ section h2 {
 
     .search-input {
         margin-left: 0;
-        width: 80%; /* Réduit la largeur de la barre de recherche */
+        width: 80%; 
     }
 
     .search-button {
@@ -148,7 +157,7 @@ section h2 {
     }
 }
 
-/* Pour les écrans mobiles */
+
 @media (max-width: 768px) {
     .search-form {
         width: 100%;

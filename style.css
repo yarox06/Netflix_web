@@ -76,7 +76,7 @@ nav ul li a {
     color: #ffffff;
     text-decoration: none;
     font-size: 17px;
-  
+    text-shadow: -4px 3px 6px rgb(0, 0, 0);
 }
 
 
@@ -290,7 +290,7 @@ header.navbar {
   
 }
 
-@media (max-width: 1000px)
+@media (max-width: 768px)
 
 {
     header {
@@ -305,7 +305,7 @@ header.navbar {
     nav ul li {
     font-size: 2px;
     margin-right: 20px;
-    text-align: center;
+   
     
 }
     .hero {
@@ -326,8 +326,9 @@ header.navbar {
     }
 
     .film {
-        flex: 1 1 calc(100% - 20px); 
+        flex: 1 1 calc(30% - 20px); 
         scale: 1;
+        
     }
 
     .search-form {

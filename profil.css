@@ -21,7 +21,7 @@ body {
 }
 header {
     
-    background-color: #000;
+    background-color: #000000c3;
     padding: 1rem;
     text-align: center;
     border-bottom: 1px solid #333;
@@ -49,6 +49,7 @@ nav ul li {
 nav ul li a {
     color: #ffffff;
     text-decoration: none;
+    text-shadow: -4px 3px 6px rgb(255, 255, 255);
 }
   .main-content {
     
