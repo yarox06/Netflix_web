@@ -293,20 +293,20 @@ header.navbar {
 @media (max-width: 1200px) {
     .container, .containers {
         width: 90%;
+        
     } 
-
+ 
     .hero h1 {
         font-size: 32px;
         margin-left: 80px;
     }
-
-   
-    .A{
-        display: flex;
-    }
-    .B{
-        display: none;
-    }
+  .hero{
+    display: none;
+  }
+   .AZ {
+    display: none;
+   }
+    
 }
 
 @media (max-width: 992px) {
@@ -340,6 +340,7 @@ header.navbar {
     header {
         padding: 10px 0;
         height: auto;
+      
     }
 
     .hero {
@@ -363,11 +364,12 @@ header.navbar {
 
     .search-input {
         width: 100%;
+        display: none;
     }
 
     .search-button {
         margin-left: 0;
-     
+     display: none;
     }
 
     .film-grid {
