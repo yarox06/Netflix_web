@@ -31,9 +31,9 @@ body {
 
 header {
     
-    background-color: #141414;
+    background-color: #14141437;
     color: #b00000;
-   
+
     padding: 20px 0;
     height: 150px;
     width: 100%;
@@ -76,7 +76,7 @@ nav ul li a {
     color: #ffffff;
     text-decoration: none;
     font-size: 17px;
-    text-shadow: -4px 3px 6px rgb(0, 0, 0);
+    text-shadow: -4px 3px 6px rgb(32, 32, 32);
 }
 
 
@@ -290,55 +290,109 @@ header.navbar {
   
 }
 
-@media (max-width: 768px)
+@media (max-width: 1200px) {
+    .container, .containers {
+        width: 90%;
+    } 
 
-{
-    header {
-        padding: 15px 0;
-        height: max-content; 
-       
+    .hero h1 {
+        font-size: 32px;
+        margin-left: 80px;
     }
+
    
-    header h1 {
-        font-size: 20px;
+    .A{
+        display: flex;
     }
-    nav ul li {
-    font-size: 2px;
-    margin-right: 20px;
-   
-    
+    .B{
+        display: none;
+    }
 }
+
+@media (max-width: 992px) {
+    header h1 {
+        font-size: 28px;
+        margin-left: 20px;
+    }
+
     .hero {
+        padding: 50px 0;
+    }
+
+    .search-form {
+        width: 300px;
+    }
+
+    .film-grid {
+        flex-direction: column;
+    }
+
+    .film {
+        flex: 1 1 100%;
+    }
+
+    .btn {
+        padding: 1000px 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
         padding: 10px 0;
-        width: 650px;
-        position:absolute;
+        height: auto;
+    }
+
+    .hero {
+        padding: 30px 0;
+        text-align: center;
     }
 
     .hero h2 {
-        font-size: 24px;
+        font-size: 28px;
     }
-    .container{
-    overflow-y: hidden;
- 
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .search-form {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search-input {
+        width: 100%;
+    }
+
+    .search-button {
+        margin-left: 0;
+     
+    }
+
+    .film-grid {
+        flex-direction: column;
+    }
 }
+
+@media (max-width: 576px) {
+    .hero h2 {
+        font-size: 22px;
+    }
+
     .hero p {
         font-size: 14px;
     }
 
-    .film {
-        flex: 1 1 calc(30% - 20px); 
-        scale: 1;
-        
-    }
-.film-grid{
-    overflow-y: hidden;
-}
-    .search-form {
-        width: 100%;
+    .btn {
+        padding: 6px 12px;
     }
 
-    #end {
-        font-size: 14px;
-        right: 5px;
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        margin: 0.5rem 0;
     }
 }
